@@ -1,0 +1,205 @@
+{
+   "configurations": [
+      {
+         "type": "java",
+         "name": "Launch RimdepurarExtraccionServiceImpl",
+         "request": "launch",
+         "mainClass": "com.microservicio.rimextraccion.services.RimdepurarExtraccionServiceImpl",
+         "projectName": "rimextraccion"
+      },
+      {
+         "type": "java",
+         "name": "Launch RimctrlCalCamposAnalisisController",
+         "request": "launch",
+         "mainClass": "com.microservicio.rimextraccion.controllers.RimctrlCalCamposAnalisisController",
+         "projectName": "rimextraccion"
+      },
+      {
+         "type": "java",
+         "name": "Launch AsigGrupoCamposAnalisis",
+         "request": "launch",
+         "mainClass": "com.microservicio.rimextraccion.models.entities.AsigGrupoCamposAnalisis",
+         "projectName": "rimextraccion"
+      },
+      {
+         "type": "java",
+         "name": "Launch RimcommonHelper",
+         "request": "launch",
+         "mainClass": "com.microservicio.rimextraccion.helpers.RimcommonHelper",
+         "projectName": "rimextraccion"
+      },
+      {
+         "type": "java",
+         "name": "Launch RimanalisisController",
+         "request": "launch",
+         "mainClass": "com.microservicio.rimextraccion.controllers.RimanalisisController",
+         "projectName": "rimextraccion"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RimsimApplication<rimsim>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "console": "internalConsole",
+         "mainClass": "com.microservicio.rimsim.RimsimApplication",
+         "projectName": "rimsim",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-UsuarioApplication<usuario>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "console": "internalConsole",
+         "mainClass": "com.microservicio.usuario.UsuarioApplication",
+         "projectName": "usuario",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env",
+         "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51261 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=usuario"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RimextraccionApplication<rimextraccion>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "console": "internalConsole",
+         "mainClass": "com.microservicio.rimextraccion.RimextraccionApplication",
+         "projectName": "rimextraccion",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-PaisApplication<pais>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "console": "internalConsole",
+         "mainClass": "com.microservicios.pais.PaisApplication",
+         "projectName": "pais",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-DependenciaApplication<dependencia>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "console": "internalConsole",
+         "mainClass": "com.microservicio.dependencia.DependenciaApplication",
+         "projectName": "dependencia",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-CommonApplication<common>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.common.CommonApplication",
+         "projectName": "common",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-InterpolApplication<interpol>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicios.interpol.InterpolApplication",
+         "projectName": "interpol",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-GenericApplication<generic>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.generic.GenericApplication",
+         "projectName": "generic",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RimcommonApplication<rimcommon>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.rimcommon.RimcommonApplication",
+         "projectName": "rimcommon",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RimasignacionApplication<rimasignacion>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.rimasignacion.RimasignacionApplication",
+         "projectName": "rimasignacion",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RimanalisisApplication<rimanalisis>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.rimanalisis.RimanalisisApplication",
+         "projectName": "rimanalisis",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RimctrlcalidadApplication<rimctrlcalidad>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.rimctrlcalidad.RimctrlcalidadApplication",
+         "projectName": "rimctrlcalidad",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RimmantenimientoApplication<rimmantenimiento>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.rimmantenimiento.RimmantenimientoApplication",
+         "projectName": "rimmantenimiento",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RimreportesApplication<rimreportes>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.rimreportes.RimreportesApplication",
+         "projectName": "rimreportes",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RrhhApplication<rrhh>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.rrhh.RrhhApplication",
+         "projectName": "rrhh",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-RimreglanegocioApplication<rimreglanegocio>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "com.microservicio.rimreglanegocio.RimreglanegocioApplication",
+         "projectName": "rimreglanegocio",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      }
+   ]
+}
